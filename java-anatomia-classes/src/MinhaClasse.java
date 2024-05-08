@@ -21,5 +21,22 @@ public class MinhaClasse {
             -> NÃO PODEMOS USAR PALAVRAS-CHAVE
             -> O NOME DEVE SER ÚNICO 
         */
+
+        //*************************************************************************************************************************************** */
+
+        //Todas as váriaveis devem possuir seus valores correspondentes ao tipo usado. Veja a seguir:
+
+        String meuNome = "Rafael";
+
+        int anoFabricacao = 2024;
+
+        boolean verdadeira = true;
+
+        anoFabricacao = 2018;
+
+        //*************************************************************************************************************************************** */
+
+        
+
     }
 }
