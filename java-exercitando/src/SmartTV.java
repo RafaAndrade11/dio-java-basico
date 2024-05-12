@@ -1,8 +1,20 @@
 public class SmartTV {
     boolean isLigada = false;
-    int canal;
-    int volume;
-    
+    int canal = 1;
+    int volume = 50;
+
+    public void aumentarCanal() {
+        canal++;
+    }
+
+    public void diminuirCanal() {
+        canal--;
+    }
+
+    public void mudarCanal(int novoCanal) {
+        canal = novoCanal;
+    }
+
     public void ligar() {
         if (isLigada == false) {
             isLigada = true;
@@ -19,7 +31,21 @@ public class SmartTV {
         }
     }
 
-    
+    public void AumentarVolume() {
+        if (volume == 100) {
+            System.out.println("NÃO É POSSÍVEL AUMENTAR O VOLUME, JÁ ESTÁ NO MÁXIMO!");
+        } else {
+            volume = volume + 1;
+        }
+    }
+
+    public void diminuirVolume() {
+        if (volume == 0) {
+            System.out.println("NÃO É POSSÍVEL DIMINUIR O VOLUME, JÁ ESTÁ NO MÍNIMO!");
+        } else {
+            volume = volume - 1;
+        }
+    }
 
 
 
