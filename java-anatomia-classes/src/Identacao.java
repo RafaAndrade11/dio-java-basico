@@ -4,7 +4,7 @@ public class Identacao {
         if (mediaFinal < 6) {
         System.out.println("REPROVADO");
         } else if (mediaFinal == 6) {
-         System.out.println("PROVA MINERVA");
+         System.out.println("RECUPERAÇÃO");
         } else {
         System.out.println("APROVADO");
         }
@@ -17,11 +17,11 @@ public class Identacao {
          * Vamos verificar o código com a identação.
          */
 
-        int mediaFinal2 = 8;
+        int mediaFinal2 = 6;
         if (mediaFinal2 < 6) {
             System.out.println("REPROVADO");
         } else if (mediaFinal2 == 6) {
-            System.out.println("PROVA MINERVA");
+            System.out.println("RECUPERAÇÃO");
         } else {
             System.out.println("APROVADO");
         }
