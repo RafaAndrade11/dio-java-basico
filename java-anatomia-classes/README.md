@@ -1,18 +1,11 @@
-## Getting Started
+## Introdução ao Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Neste repositório compartilho um pouco do aprendizado sobre Introdução ao Java, identação métodos e declaração de variáveis.
 
-## Folder Structure
+## Estrutura:
 
-The workspace contains two folders by default, where:
+O repositório foi separado em três arquivos .java:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Identacao.java = Mostrando a forma correta de identação onde facilita a leitura e o compreendimento do código.
+- Metodos.java = Criação do metodo nomeCompleto onde possui a função de unir o nome e o sobrenome previamente declarados.
+- MinhClasse.java = Mostra os tipos corretos de declarações de variáveis e mostra também algumas formas incorretas que podem levar a erros.
