@@ -10,7 +10,7 @@ public class SwitchCase {
 
          //programa de exemplo de medida
 
-         String sigla = "M";
+         String sigla = "P";
 
         switch (sigla) {
             case "P": {
