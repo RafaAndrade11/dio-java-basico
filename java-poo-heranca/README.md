@@ -1,6 +1,6 @@
 # HERANÇA
 
-![UML HERANÇA](https://i.im.ge/2024/05/25/Ka0Ok4.uml-heranca.jpeg)
+![uml heranca](https://github.com/RafaAndrade11/dio-java-basico/assets/143004155/47da6582-4ae9-4da1-bd4b-739eb7fb4cba)
 
 Imagina se em cada serviço de mensagem instantânea que fosse implementado ao sistema tivéssemos que implementar todos os métodos novamente.
 Seria muito trabalhoso e ao adicionar uma regra de negócio em um, teríamos que implementar em todos os outros, fazendo a manutenção ser muito difícil.

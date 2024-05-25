@@ -3,7 +3,7 @@
 Nem tudo precisa estar visível, grande parte do nosso algoritmo pode ser distribuído em
 métodos com finalidades específicas que complementa uma ação em nossa aplicação.
 
-![UML ENCAPSULAMENTO](https://i.im.ge/2024/05/25/Ka0sTP.uml-encapsulamento.jpeg)
+![uml encapsulamento](https://github.com/RafaAndrade11/dio-java-basico/assets/143004155/c918285f-cf67-408f-9814-a12d587c3c82)
 
 O programa aborda o tema de encapsulamento da seguinte maneira:
 
