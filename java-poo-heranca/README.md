@@ -1,6 +1,6 @@
 # HERANÇA
 
-<a href="https://im.ge/i/uml-abstracao.KaixQ1"><img src="https://i.im.ge/2024/05/25/KaixQ1.uml-abstracao.md.png" alt="uml abstracao" border="0"></a>
+![UML HERANÇA](https://i.im.ge/2024/05/25/Ka0Ok4.uml-heranca.jpeg)
 
 Imagina se em cada serviço de mensagem instantânea que fosse implementado ao sistema tivéssemos que implementar todos os métodos novamente.
 Seria muito trabalhoso e ao adicionar uma regra de negócio em um, teríamos que implementar em todos os outros, fazendo a manutenção ser muito difícil.
