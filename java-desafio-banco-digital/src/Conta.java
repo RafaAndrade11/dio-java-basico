@@ -17,18 +17,30 @@ public abstract class Conta implements IConta {
 
     @Override
     public void sacar(double valor) {
-        saldo -= valor;
+        if (saldo > 0) {
+            saldo -= valor;
+        } else {
+            throw new RuntimeException("Não é possível sacar!");
+        }
     }
 
     @Override
     public void depositar(double valor) {
-        saldo += valor;
+        if (valor > 0) {
+            saldo += valor;
+        } else {
+            throw new RuntimeException ("Não é possível depositar! Valor precisa ser maior que 0!");
+        }
     }
 
     @Override
     public void transferir(double valor, IConta contaDestino) {
-        this.sacar(valor);
-        contaDestino.depositar(valor);
+        if (saldo > 0 && valor > 0) {
+            this.sacar(valor);
+            contaDestino.depositar(valor);
+        } else {
+            throw new RuntimeException("Não é possível realizar a transferência.");
+        }
     }
 
     public int getAgencia() {
